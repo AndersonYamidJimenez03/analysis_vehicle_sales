@@ -48,7 +48,7 @@ WHERE total_new_sales_by_year = (
 
 As expected, the year with the highest sales was 2023, with $13.756 billion. This will be shown in the following graph, where a progressive increase in new vehicle sales will be evident
 
-![Top 10 new vehicles sales](assets\Graph_1.png)
+![Top 10 new vehicles sales](assets/Graph_1.png)
 
 _Graph showing the years with the highest new vehicle sales during the period from 2002 to 2023. The year 2023 is shown as the year with the highest sales, with a total of $13,755,763,434, approximately 14 billion_
 
@@ -70,11 +70,11 @@ WHERE total_sales_used = (
 
 The following charts, both the table and the donut chart, show that some months consistently have the highest sales in their respective years. Notably, summer months like August and July together account for 59% of all months with the highest sales.
 
-![Top highest used vehicle sales monthly each year](assets\Graph_2.png)
+![Top highest used vehicle sales monthly each year](assets/Graph_2.png)
 
 _A table that shows the months with the highest sales for each year. As can be observed, months like August and July appear repeatedly._
 
-![Percentage of months with the highets sales](assets\Graph_3.png)
+![Percentage of months with the highets sales](assets/Graph_3.png)
 
 _The donut chart shows the number of times these months are repeated as a percentage of the total months presented in the previous table. August and July dominate, indicating that for the used vehicle market, these months are crucial._
 
@@ -93,7 +93,7 @@ ORDER BY year
 
 Both the query and the chart that presents new and used car sales show an overall upward trend, despite two declines in sales. The first decline occurs between 2006 and 2010, where the drop is more significant in the new vehicle market than in the used one. In the second decline, from 2019 to 2020, the decreases are similar, though greater in the used vehicle market.
 
-![Evoluation new and used vehicles by year](assets\Graph_4.png)
+![Evoluation new and used vehicles by year](assets/Graph_4.png)
 
 _The chart shows the evolution of sales for both new and used vehicle markets, consistently demonstrating the dominance of the new car market and how these markets fluctuate over the years._
 
@@ -115,7 +115,7 @@ WHERE total_sales_new + total_sales_used > (
 
 After the correlated subquery, a decomposition tree was created in Power BI, showing the top 6 months with sales above the average of their respective years. Unlike the analysis in question 2, we found a couple of months that weren’t initially on the radar. It can be seen that the summer season has each of its months above the average, and months that weren’t previously considered, such as June, September, May, and March, play a more significant role than initially analyzed.
 
-![Top 6 months with the highest sales above average by year](assets\Graph_5.png)
+![Top 6 months with the highest sales above average by year](assets/Graph_5.png)
 
 _The decomposition tree shows the breakdown of months in total new and used vehicle sales, where the summer season clearly plays a leading role._
 
@@ -133,7 +133,7 @@ ORDER BY sales DESC
 
 Both in the SQL query and in the line chart, a growing trend (gray line) in the market is evident. However, as seen in question 3, two periods where the market contracts can be observed, the first between 2007 and 2010, and the second between 2019 and 2020. These market contractions can be interpreted as consequences of the housing crisis and the pandemic, although they are not the only fluctuations, they are the most significant. Despite these declines, the market recovers and continues on a positive path.
 
-![Total vehicle sales](assets\Graph_6.png)
+![Total vehicle sales](assets/Graph_6.png)
 
 _The chart shows the evolution of vehicle sales during the period from 2002 to 2023, with a purple line and a dotted gray trend line._
 
