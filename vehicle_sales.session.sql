@@ -1,4 +1,4 @@
-DROP TABLE fact_vehicle_sales;
+DROP TABLE IF EXISTS fact_vehicle_sales;
 -- Table creation
 CREATE TABLE fact_vehicle_sales (
     id SERIAL,
